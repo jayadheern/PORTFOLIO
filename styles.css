@@ -1,0 +1,91 @@
+
+header {
+    color: #3498db;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    
+}
+
+
+h1 {
+    font-size: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color:black;
+    justify-content: center;
+}
+
+nav a {
+    color: #ecf0f1;
+    padding:  1.8rem;
+    transition: color 0.3s;
+}
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #3498db;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.work-entry {
+    padding: 1.5rem;
+    border-radius: 5px;
+    color: #3498db;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #34495e;
+    color: #ecf0f1;
+}
+#photo{
+    text-align: center;
+}
+#about{
+    color: #fff;
+}
+#contact{
+color: #ddd;
+}
+#logo{
+text-align:center;
+}
